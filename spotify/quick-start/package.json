@@ -1,0 +1,13 @@
+{
+  "name": "quick-start",
+  "version": "1.0.0",
+  "description": "Quick start project from https://developer.spotify.com/documentation/web-api/quick-start/",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

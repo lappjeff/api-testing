@@ -3,7 +3,11 @@
   "version": "1.0.0",
   "description": "Quick start project from https://developer.spotify.com/documentation/web-api/quick-start/",
   "main": "index.js",
-  "dependencies": {},
+  "dependencies": {
+    "express": "^4.17.1",
+    "querystring": "^0.2.0",
+    "request": "^2.88.0"
+  },
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

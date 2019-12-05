@@ -1,0 +1,5 @@
+/spotify/quick-start/node_modules
+/spotify/quick-start/.env
+
+/spotify/authorization-attempt/node_modules
+/spotify/authorization-attempt/.env

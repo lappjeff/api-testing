@@ -76,7 +76,6 @@ app.get("/me", async (req, res) => {
 			"BQDnvqZwlXVH4EwT2tfnJd28ms6PXlbNMbS4REz75qqlJqQN99DVQCGPP1njGcCDQIdaueUbF-Etj2VqLGKbR7E5pelwOsmae2_ArDAB452RiHeZIOaweCkWJLJLNsud-Wczs3eN28tHTAtb7XK5m8v1OSv2eMI38A"
 		);
 		const me = await spotifyApi.getMe();
-		console.log(me.body);
 
 		res.status(200).json({ ...me.body });
 	} catch (err) {
@@ -84,6 +83,7 @@ app.get("/me", async (req, res) => {
 		res.status(500).json({ message: err });
 	}
 });
+
 const port = process.env.PORT || 5000;
 
 app.listen(port, () => console.info(`Server running on port ${port}`));
